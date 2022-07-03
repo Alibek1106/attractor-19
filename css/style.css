@@ -1,0 +1,139 @@
+body{
+	font-family: 'Istok Web',	sans-serif;
+	color: #4b3f55;
+}
+
+.bg-violet{
+	background: #775ba3;
+}
+
+.text-violet{
+	color: #775ba3;
+}
+
+.nav-link{
+	font-size: 14px;
+}
+
+.btn-user{
+	color: #fff;
+	background: transparent;
+	border: none;
+	font-size: 26px;
+	margin-left: auto;
+}
+
+#main-carousel{
+	margin-bottom: 110px;
+}
+
+#main-carousel .carousel-indicators [data-bs-target]{
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background: transparent;
+	border: 2px solid #fff;
+	opacity: 1;
+}
+
+#main-carousel .carousel-indicators .active {
+	background: #fff;
+	border: none;
+	margin-top: 2px;
+}
+
+.person{
+	max-width: 360px;
+}
+
+.person h5{
+	font-size: 15px;
+}
+
+.person h5 span{
+	font-size: 12px;
+}
+
+.headers{
+	font-size: 40px;
+}
+
+.hero-text-block{
+	margin-bottom: 110px;
+}
+
+.hero-text-block p{
+	font-size: 23px;
+}
+
+.btn-purple{
+	background-color: #ea4c88;
+}
+
+.features-header{
+	font-size: 35px;
+}
+
+.features-text{
+	max-width: 500px;
+}
+
+.border-blue{
+	border-color: #91c5a9!important;
+}
+
+.review-pic{
+	position: relative;
+}
+
+.triangle{
+	position: absolute;
+	right: 0;
+	top: 29px;
+}
+
+.review-text p{
+	font-size: 27px;
+}
+
+.review-text {
+	background-image: url('../images/begining.png');
+	background-repeat: no-repeat;
+}
+
+.review-text span{
+	background-image: url('../images/ending.png');
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+#review-carousel .carousel-indicators [data-bs-target]{
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: transparent;
+	border: 2px solid #91c5a9;
+	opacity: 1;
+}
+
+#review-carousel .carousel-indicators .active {
+	background-color: #91c5a9;
+}
+
+.hr{
+	border: none;
+	height: 1px;
+	background-color: #53a57f;
+}
+
+.footer{
+	background-color: #53a57f;
+}
+
+.footer p{
+	margin: 0;
+}
+
+#review-carousel .carousel-indicators{
+	position: static;
+}
